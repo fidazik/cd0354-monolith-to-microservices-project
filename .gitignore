@@ -30,14 +30,14 @@ plugins/ios.json
 $RECYCLE.BIN/
 postgres_dev/
 logfile
+/Classroom_Project_Instructions
 
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
 node_modules
 venv/
-Classroom_Project_Instructions
-screenshots/README.md
+screenshots/
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
