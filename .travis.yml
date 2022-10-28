@@ -22,7 +22,7 @@ script:
   - docker-compose -f docker-compose-build.yaml build --parallel
   - docker tag udagram-api-feed fidazik/udagram-api-feed:v3
   - docker tag udagram-api-user fidazik/udagram-api-user:v3
-  - docker tag udagram-frontend fidazik/udagram-frontend:v3
+  - docker tag udagram-frontend:local fidazik/udagram-frontend:v3
   - docker tag reverseproxy fidazik/reverseproxy:v3
 
 after_success:
