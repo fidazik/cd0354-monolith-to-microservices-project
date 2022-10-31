@@ -44,3 +44,6 @@ venv/
 !.elasticbeanstalk/*.global.yml
 set_env.sh
 awscliv2.pkg
+aws-secret.yaml
+env-secret.yaml
+env-configmap.yaml
